@@ -1659,3 +1659,2162 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2024-11-19 15:49:56,337:INFO:Generating predictions / predict_proba on X_test
 2024-11-19 15:49:56,589:INFO:Visual Rendered Successfully
 2024-11-19 15:49:56,702:INFO:plot_model() successfully completed......................................
+2024-11-19 16:29:19,897:INFO:Initializing plot_model()
+2024-11-19 16:29:19,898:INFO:plot_model(plot=lift, fold=None, verbose=True, display=None, display_format=None, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, system=True)
+2024-11-19 16:29:19,898:INFO:Checking exceptions
+2024-11-19 16:29:19,928:INFO:Preloading libraries
+2024-11-19 16:29:19,936:INFO:Copying training dataset
+2024-11-19 16:29:19,936:INFO:Plot type: lift
+2024-11-19 16:29:19,937:INFO:Generating predictions / predict_proba on X_test
+2024-11-19 16:29:20,187:INFO:Visual Rendered Successfully
+2024-11-19 16:29:20,298:INFO:plot_model() successfully completed......................................
+2024-11-19 17:30:47,231:INFO:Initializing predict_model()
+2024-11-19 17:30:47,231:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x345ae4e50>)
+2024-11-19 17:30:47,232:INFO:Checking exceptions
+2024-11-19 17:30:47,232:INFO:Preloading libraries
+2024-11-19 17:31:04,687:INFO:Initializing predict_model()
+2024-11-19 17:31:04,687:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x348219160>)
+2024-11-19 17:31:04,687:INFO:Checking exceptions
+2024-11-19 17:31:04,687:INFO:Preloading libraries
+2024-11-19 17:31:14,151:INFO:Initializing predict_model()
+2024-11-19 17:31:14,151:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x348219af0>)
+2024-11-19 17:31:14,151:INFO:Checking exceptions
+2024-11-19 17:31:14,151:INFO:Preloading libraries
+2024-11-19 17:31:31,214:INFO:Initializing predict_model()
+2024-11-19 17:31:31,214:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x3482194c0>)
+2024-11-19 17:31:31,214:INFO:Checking exceptions
+2024-11-19 17:31:31,214:INFO:Preloading libraries
+2024-11-19 17:31:42,908:INFO:Initializing predict_model()
+2024-11-19 17:31:42,909:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x34821d1f0>)
+2024-11-19 17:31:42,909:INFO:Checking exceptions
+2024-11-19 17:31:42,909:INFO:Preloading libraries
+2024-11-19 17:32:04,676:INFO:Initializing predict_model()
+2024-11-19 17:32:04,676:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x348232280>)
+2024-11-19 17:32:04,676:INFO:Checking exceptions
+2024-11-19 17:32:04,676:INFO:Preloading libraries
+2024-11-19 17:32:37,682:INFO:Initializing predict_model()
+2024-11-19 17:32:37,683:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x3482320d0>)
+2024-11-19 17:32:37,683:INFO:Checking exceptions
+2024-11-19 17:32:37,683:INFO:Preloading libraries
+2024-11-19 17:32:53,768:INFO:Initializing predict_model()
+2024-11-19 17:32:53,768:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x348232820>)
+2024-11-19 17:32:53,768:INFO:Checking exceptions
+2024-11-19 17:32:53,768:INFO:Preloading libraries
+2024-11-19 17:32:57,383:INFO:Initializing predict_model()
+2024-11-19 17:32:57,383:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x3482361f0>)
+2024-11-19 17:32:57,383:INFO:Checking exceptions
+2024-11-19 17:32:57,383:INFO:Preloading libraries
+2024-11-19 17:37:51,008:INFO:Initializing predict_model()
+2024-11-19 17:37:51,009:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x348236280>)
+2024-11-19 17:37:51,009:INFO:Checking exceptions
+2024-11-19 17:37:51,009:INFO:Preloading libraries
+2024-11-19 17:38:42,035:INFO:Initializing predict_model()
+2024-11-19 17:38:42,035:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x348236820>)
+2024-11-19 17:38:42,035:INFO:Checking exceptions
+2024-11-19 17:38:42,035:INFO:Preloading libraries
+2024-11-19 17:43:58,638:INFO:Initializing predict_model()
+2024-11-19 17:43:58,638:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x348236f70>)
+2024-11-19 17:43:58,638:INFO:Checking exceptions
+2024-11-19 17:43:58,638:INFO:Preloading libraries
+2024-11-19 17:44:55,452:INFO:Initializing predict_model()
+2024-11-19 17:44:55,453:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x345c17160>)
+2024-11-19 17:44:55,453:INFO:Checking exceptions
+2024-11-19 17:44:55,453:INFO:Preloading libraries
+2024-11-19 17:45:53,632:INFO:Initializing predict_model()
+2024-11-19 17:45:53,632:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x345bf71f0>)
+2024-11-19 17:45:53,632:INFO:Checking exceptions
+2024-11-19 17:45:53,632:INFO:Preloading libraries
+2024-11-19 17:58:58,811:INFO:Initializing predict_model()
+2024-11-19 17:58:58,813:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x345bf7040>)
+2024-11-19 17:58:58,813:INFO:Checking exceptions
+2024-11-19 17:58:58,813:INFO:Preloading libraries
+2024-11-19 17:59:22,120:INFO:Initializing predict_model()
+2024-11-19 17:59:22,120:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x345bf71f0>)
+2024-11-19 17:59:22,120:INFO:Checking exceptions
+2024-11-19 17:59:22,121:INFO:Preloading libraries
+2024-11-19 17:59:38,588:INFO:Initializing predict_model()
+2024-11-19 17:59:38,588:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x345bf71f0>)
+2024-11-19 17:59:38,588:INFO:Checking exceptions
+2024-11-19 17:59:38,588:INFO:Preloading libraries
+2024-11-19 17:59:42,738:INFO:Initializing predict_model()
+2024-11-19 17:59:42,738:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x345bf7670>)
+2024-11-19 17:59:42,738:INFO:Checking exceptions
+2024-11-19 17:59:42,738:INFO:Preloading libraries
+2024-11-19 17:59:45,995:INFO:Initializing predict_model()
+2024-11-19 17:59:45,996:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x345bf7670>)
+2024-11-19 17:59:45,996:INFO:Checking exceptions
+2024-11-19 17:59:45,996:INFO:Preloading libraries
+2024-11-19 18:02:29,575:INFO:Initializing predict_model()
+2024-11-19 18:02:29,575:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x34492eca0>)
+2024-11-19 18:02:29,575:INFO:Checking exceptions
+2024-11-19 18:02:29,575:INFO:Preloading libraries
+2024-11-19 18:02:52,312:INFO:Initializing predict_model()
+2024-11-19 18:02:52,313:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x32b1f6820>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x345bf7280>)
+2024-11-19 18:02:52,313:INFO:Checking exceptions
+2024-11-19 18:02:52,313:INFO:Preloading libraries
+2024-11-19 18:03:13,260:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-19 18:03:13,260:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-19 18:03:13,260:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-19 18:03:13,260:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-19 18:03:16,618:INFO:PyCaret ClassificationExperiment
+2024-11-19 18:03:16,618:INFO:Logging name: clf-default-name
+2024-11-19 18:03:16,618:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2024-11-19 18:03:16,618:INFO:version 3.3.2
+2024-11-19 18:03:16,618:INFO:Initializing setup()
+2024-11-19 18:03:16,618:INFO:self.USI: 99c7
+2024-11-19 18:03:16,618:INFO:self._variable_keys: {'target_param', 'idx', 'fold_generator', 'fix_imbalance', 'y_train', 'X', '_available_plots', 'exp_id', 'X_train', '_ml_usecase', 'USI', 'data', 'logging_param', 'seed', 'n_jobs_param', 'html_param', 'log_plots_param', 'pipeline', 'gpu_n_jobs_param', 'exp_name_log', 'y_test', 'is_multiclass', 'memory', 'fold_shuffle_param', 'gpu_param', 'X_test', 'fold_groups_param', 'y'}
+2024-11-19 18:03:16,618:INFO:Checking environment
+2024-11-19 18:03:16,618:INFO:python_version: 3.9.6
+2024-11-19 18:03:16,618:INFO:python_build: ('default', 'Aug  9 2024 14:24:13')
+2024-11-19 18:03:16,618:INFO:machine: arm64
+2024-11-19 18:03:16,618:INFO:platform: macOS-15.0.1-arm64-arm-64bit
+2024-11-19 18:03:16,618:INFO:Memory: svmem(total=17179869184, available=5630967808, percent=67.2, used=7534460928, free=53952512, active=5605408768, inactive=5494784000, wired=1929052160)
+2024-11-19 18:03:16,618:INFO:Physical Core: 10
+2024-11-19 18:03:16,618:INFO:Logical Core: 10
+2024-11-19 18:03:16,618:INFO:Checking libraries
+2024-11-19 18:03:16,618:INFO:System:
+2024-11-19 18:03:16,618:INFO:    python: 3.9.6 (default, Aug  9 2024, 14:24:13)  [Clang 16.0.0 (clang-1600.0.26.3)]
+2024-11-19 18:03:16,618:INFO:executable: /Users/henriquekubo/Documents/repos/health/health_insurance/.venv/bin/python
+2024-11-19 18:03:16,618:INFO:   machine: macOS-15.0.1-arm64-arm-64bit
+2024-11-19 18:03:16,618:INFO:PyCaret required dependencies:
+2024-11-19 18:03:16,640:INFO:                 pip: 24.3.1
+2024-11-19 18:03:16,640:INFO:          setuptools: 58.0.4
+2024-11-19 18:03:16,640:INFO:             pycaret: 3.3.2
+2024-11-19 18:03:16,640:INFO:             IPython: 8.18.1
+2024-11-19 18:03:16,640:INFO:          ipywidgets: 8.1.5
+2024-11-19 18:03:16,640:INFO:                tqdm: 4.67.0
+2024-11-19 18:03:16,640:INFO:               numpy: 1.26.4
+2024-11-19 18:03:16,640:INFO:              pandas: 2.1.4
+2024-11-19 18:03:16,640:INFO:              jinja2: 3.1.4
+2024-11-19 18:03:16,640:INFO:               scipy: 1.11.4
+2024-11-19 18:03:16,640:INFO:              joblib: 1.3.2
+2024-11-19 18:03:16,640:INFO:             sklearn: 1.4.2
+2024-11-19 18:03:16,640:INFO:                pyod: 2.0.2
+2024-11-19 18:03:16,640:INFO:            imblearn: 0.12.4
+2024-11-19 18:03:16,640:INFO:   category_encoders: 2.6.4
+2024-11-19 18:03:16,641:INFO:            lightgbm: 4.5.0
+2024-11-19 18:03:16,641:INFO:               numba: 0.60.0
+2024-11-19 18:03:16,641:INFO:            requests: 2.32.3
+2024-11-19 18:03:16,641:INFO:          matplotlib: 3.7.5
+2024-11-19 18:03:16,641:INFO:          scikitplot: 0.3.7
+2024-11-19 18:03:16,641:INFO:         yellowbrick: 1.5
+2024-11-19 18:03:16,641:INFO:              plotly: 5.24.1
+2024-11-19 18:03:16,641:INFO:    plotly-resampler: Not installed
+2024-11-19 18:03:16,641:INFO:             kaleido: 0.4.2
+2024-11-19 18:03:16,641:INFO:           schemdraw: 0.15
+2024-11-19 18:03:16,641:INFO:         statsmodels: 0.14.4
+2024-11-19 18:03:16,641:INFO:              sktime: 0.26.0
+2024-11-19 18:03:16,641:INFO:               tbats: 1.1.3
+2024-11-19 18:03:16,641:INFO:            pmdarima: 2.0.4
+2024-11-19 18:03:16,641:INFO:              psutil: 6.1.0
+2024-11-19 18:03:16,641:INFO:          markupsafe: 3.0.2
+2024-11-19 18:03:16,641:INFO:             pickle5: Not installed
+2024-11-19 18:03:16,641:INFO:         cloudpickle: 3.1.0
+2024-11-19 18:03:16,641:INFO:         deprecation: 2.1.0
+2024-11-19 18:03:16,641:INFO:              xxhash: 3.5.0
+2024-11-19 18:03:16,641:INFO:           wurlitzer: 3.1.1
+2024-11-19 18:03:16,641:INFO:PyCaret optional dependencies:
+2024-11-19 18:03:16,647:INFO:                shap: Not installed
+2024-11-19 18:03:16,647:INFO:           interpret: Not installed
+2024-11-19 18:03:16,647:INFO:                umap: Not installed
+2024-11-19 18:03:16,647:INFO:     ydata_profiling: Not installed
+2024-11-19 18:03:16,647:INFO:  explainerdashboard: Not installed
+2024-11-19 18:03:16,647:INFO:             autoviz: Not installed
+2024-11-19 18:03:16,647:INFO:           fairlearn: Not installed
+2024-11-19 18:03:16,647:INFO:          deepchecks: Not installed
+2024-11-19 18:03:16,647:INFO:             xgboost: Not installed
+2024-11-19 18:03:16,647:INFO:            catboost: Not installed
+2024-11-19 18:03:16,647:INFO:              kmodes: Not installed
+2024-11-19 18:03:16,647:INFO:             mlxtend: Not installed
+2024-11-19 18:03:16,647:INFO:       statsforecast: Not installed
+2024-11-19 18:03:16,647:INFO:        tune_sklearn: Not installed
+2024-11-19 18:03:16,647:INFO:                 ray: Not installed
+2024-11-19 18:03:16,647:INFO:            hyperopt: Not installed
+2024-11-19 18:03:16,647:INFO:              optuna: Not installed
+2024-11-19 18:03:16,647:INFO:               skopt: Not installed
+2024-11-19 18:03:16,647:INFO:              mlflow: Not installed
+2024-11-19 18:03:16,647:INFO:              gradio: Not installed
+2024-11-19 18:03:16,647:INFO:             fastapi: Not installed
+2024-11-19 18:03:16,647:INFO:             uvicorn: Not installed
+2024-11-19 18:03:16,647:INFO:              m2cgen: Not installed
+2024-11-19 18:03:16,647:INFO:           evidently: Not installed
+2024-11-19 18:03:16,647:INFO:               fugue: Not installed
+2024-11-19 18:03:16,647:INFO:           streamlit: Not installed
+2024-11-19 18:03:16,647:INFO:             prophet: Not installed
+2024-11-19 18:03:16,647:INFO:None
+2024-11-19 18:03:16,647:INFO:Set up data.
+2024-11-19 18:03:16,662:INFO:Set up folding strategy.
+2024-11-19 18:03:16,662:INFO:Set up train/test split.
+2024-11-19 18:03:16,683:INFO:Set up index.
+2024-11-19 18:03:16,683:INFO:Assigning column types.
+2024-11-19 18:03:16,690:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2024-11-19 18:03:16,710:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-11-19 18:03:16,712:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2024-11-19 18:03:16,727:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-11-19 18:03:16,727:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-11-19 18:03:16,747:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-11-19 18:03:16,747:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2024-11-19 18:03:16,759:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-11-19 18:03:16,759:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-11-19 18:03:16,759:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2024-11-19 18:03:16,779:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2024-11-19 18:03:16,791:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-11-19 18:03:16,791:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-11-19 18:03:16,810:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2024-11-19 18:03:16,822:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-11-19 18:03:16,822:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-11-19 18:03:16,822:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2024-11-19 18:03:16,853:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-11-19 18:03:16,854:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-11-19 18:03:16,885:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-11-19 18:03:16,885:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-11-19 18:03:16,887:INFO:Preparing preprocessing pipeline...
+2024-11-19 18:03:16,889:INFO:Set up simple imputation.
+2024-11-19 18:03:16,895:INFO:Set up encoding of ordinal features.
+2024-11-19 18:03:16,897:INFO:Set up encoding of categorical features.
+2024-11-19 18:03:16,897:INFO:Set up feature normalization.
+2024-11-19 18:03:17,026:INFO:Finished creating preprocessing pipeline.
+2024-11-19 18:03:17,035:INFO:Pipeline: Pipeline(memory=FastMemory(location=/var/folders/c4/75scc7l95tb5q89bl9q_4kkr0000gn/T/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,...
+                 TransformerWrapper(exclude=None, include=['vehicle_age'],
+                                    transformer=OneHotEncoder(cols=['vehicle_age'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('normalize',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=StandardScaler(copy=True,
+                                                               with_mean=True,
+                                                               with_std=True)))],
+         verbose=False)
+2024-11-19 18:03:17,035:INFO:Creating final display dataframe.
+2024-11-19 18:03:17,289:INFO:Setup _display_container:                     Description             Value
+0                    Session id               123
+1                        Target          response
+2                   Target type            Binary
+3           Original data shape       (76222, 12)
+4        Transformed data shape       (76222, 14)
+5   Transformed train set shape       (53355, 14)
+6    Transformed test set shape       (22867, 14)
+7              Numeric features                 9
+8          Categorical features                 2
+9                    Preprocess              True
+10              Imputation type            simple
+11           Numeric imputation              mean
+12       Categorical imputation              mode
+13     Maximum one-hot encoding                25
+14              Encoding method              None
+15                    Normalize              True
+16             Normalize method            zscore
+17               Fold Generator   StratifiedKFold
+18                  Fold Number                10
+19                     CPU Jobs                -1
+20                      Use GPU             False
+21               Log Experiment             False
+22              Experiment Name  clf-default-name
+23                          USI              99c7
+2024-11-19 18:03:17,325:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-11-19 18:03:17,326:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-11-19 18:03:17,357:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-11-19 18:03:17,357:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-11-19 18:03:17,358:INFO:setup() successfully completed in 0.74s...............
+2024-11-19 18:03:17,363:INFO:Initializing compare_models()
+2024-11-19 18:03:17,363:INFO:compare_models(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, include=None, fold=None, round=4, cross_validation=True, sort=Accuracy, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, 'include': None, 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'Accuracy', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'probability_threshold': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.classification.oop.ClassificationExperiment'>}, exclude=None)
+2024-11-19 18:03:17,363:INFO:Checking exceptions
+2024-11-19 18:03:17,371:INFO:Preparing display monitor
+2024-11-19 18:03:17,403:INFO:Initializing Logistic Regression
+2024-11-19 18:03:17,403:INFO:Total runtime is 3.4968058268229165e-06 minutes
+2024-11-19 18:03:17,405:INFO:SubProcess create_model() called ==================================
+2024-11-19 18:03:17,405:INFO:Initializing create_model()
+2024-11-19 18:03:17,405:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=lr, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x31138db50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-11-19 18:03:17,405:INFO:Checking exceptions
+2024-11-19 18:03:17,406:INFO:Importing libraries
+2024-11-19 18:03:17,406:INFO:Copying training dataset
+2024-11-19 18:03:17,419:INFO:Defining folds
+2024-11-19 18:03:17,419:INFO:Declaring metric variables
+2024-11-19 18:03:17,421:INFO:Importing untrained model
+2024-11-19 18:03:17,423:INFO:Logistic Regression Imported successfully
+2024-11-19 18:03:17,426:INFO:Starting cross validation
+2024-11-19 18:03:17,427:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-11-19 18:03:19,947:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:19,994:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:20,103:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:20,125:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:20,179:INFO:Calculating mean and std
+2024-11-19 18:03:20,181:INFO:Creating metrics dataframe
+2024-11-19 18:03:20,183:INFO:Uploading results into container
+2024-11-19 18:03:20,183:INFO:Uploading model into container now
+2024-11-19 18:03:20,184:INFO:_master_model_container: 1
+2024-11-19 18:03:20,184:INFO:_display_container: 2
+2024-11-19 18:03:20,184:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2024-11-19 18:03:20,184:INFO:create_model() successfully completed......................................
+2024-11-19 18:03:20,250:INFO:SubProcess create_model() end ==================================
+2024-11-19 18:03:20,250:INFO:Creating metrics dataframe
+2024-11-19 18:03:20,253:INFO:Initializing K Neighbors Classifier
+2024-11-19 18:03:20,253:INFO:Total runtime is 0.0475006620089213 minutes
+2024-11-19 18:03:20,255:INFO:SubProcess create_model() called ==================================
+2024-11-19 18:03:20,255:INFO:Initializing create_model()
+2024-11-19 18:03:20,255:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=knn, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x31138db50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-11-19 18:03:20,255:INFO:Checking exceptions
+2024-11-19 18:03:20,255:INFO:Importing libraries
+2024-11-19 18:03:20,255:INFO:Copying training dataset
+2024-11-19 18:03:20,269:INFO:Defining folds
+2024-11-19 18:03:20,269:INFO:Declaring metric variables
+2024-11-19 18:03:20,271:INFO:Importing untrained model
+2024-11-19 18:03:20,272:INFO:K Neighbors Classifier Imported successfully
+2024-11-19 18:03:20,275:INFO:Starting cross validation
+2024-11-19 18:03:20,276:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-11-19 18:03:23,639:INFO:Calculating mean and std
+2024-11-19 18:03:23,640:INFO:Creating metrics dataframe
+2024-11-19 18:03:23,641:INFO:Uploading results into container
+2024-11-19 18:03:23,641:INFO:Uploading model into container now
+2024-11-19 18:03:23,641:INFO:_master_model_container: 2
+2024-11-19 18:03:23,641:INFO:_display_container: 2
+2024-11-19 18:03:23,641:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2024-11-19 18:03:23,641:INFO:create_model() successfully completed......................................
+2024-11-19 18:03:23,691:INFO:SubProcess create_model() end ==================================
+2024-11-19 18:03:23,691:INFO:Creating metrics dataframe
+2024-11-19 18:03:23,695:INFO:Initializing Naive Bayes
+2024-11-19 18:03:23,695:INFO:Total runtime is 0.10485622882843017 minutes
+2024-11-19 18:03:23,696:INFO:SubProcess create_model() called ==================================
+2024-11-19 18:03:23,696:INFO:Initializing create_model()
+2024-11-19 18:03:23,696:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=nb, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x31138db50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-11-19 18:03:23,696:INFO:Checking exceptions
+2024-11-19 18:03:23,696:INFO:Importing libraries
+2024-11-19 18:03:23,696:INFO:Copying training dataset
+2024-11-19 18:03:23,709:INFO:Defining folds
+2024-11-19 18:03:23,709:INFO:Declaring metric variables
+2024-11-19 18:03:23,710:INFO:Importing untrained model
+2024-11-19 18:03:23,712:INFO:Naive Bayes Imported successfully
+2024-11-19 18:03:23,715:INFO:Starting cross validation
+2024-11-19 18:03:23,716:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-11-19 18:03:24,007:INFO:Calculating mean and std
+2024-11-19 18:03:24,007:INFO:Creating metrics dataframe
+2024-11-19 18:03:24,008:INFO:Uploading results into container
+2024-11-19 18:03:24,008:INFO:Uploading model into container now
+2024-11-19 18:03:24,008:INFO:_master_model_container: 3
+2024-11-19 18:03:24,008:INFO:_display_container: 2
+2024-11-19 18:03:24,009:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2024-11-19 18:03:24,009:INFO:create_model() successfully completed......................................
+2024-11-19 18:03:24,050:INFO:SubProcess create_model() end ==================================
+2024-11-19 18:03:24,050:INFO:Creating metrics dataframe
+2024-11-19 18:03:24,054:INFO:Initializing Decision Tree Classifier
+2024-11-19 18:03:24,054:INFO:Total runtime is 0.11084765990575154 minutes
+2024-11-19 18:03:24,056:INFO:SubProcess create_model() called ==================================
+2024-11-19 18:03:24,056:INFO:Initializing create_model()
+2024-11-19 18:03:24,056:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=dt, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x31138db50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-11-19 18:03:24,056:INFO:Checking exceptions
+2024-11-19 18:03:24,056:INFO:Importing libraries
+2024-11-19 18:03:24,056:INFO:Copying training dataset
+2024-11-19 18:03:24,069:INFO:Defining folds
+2024-11-19 18:03:24,069:INFO:Declaring metric variables
+2024-11-19 18:03:24,071:INFO:Importing untrained model
+2024-11-19 18:03:24,072:INFO:Decision Tree Classifier Imported successfully
+2024-11-19 18:03:24,075:INFO:Starting cross validation
+2024-11-19 18:03:24,076:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-11-19 18:03:24,580:INFO:Calculating mean and std
+2024-11-19 18:03:24,581:INFO:Creating metrics dataframe
+2024-11-19 18:03:24,582:INFO:Uploading results into container
+2024-11-19 18:03:24,582:INFO:Uploading model into container now
+2024-11-19 18:03:24,582:INFO:_master_model_container: 4
+2024-11-19 18:03:24,582:INFO:_display_container: 2
+2024-11-19 18:03:24,583:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=123, splitter='best')
+2024-11-19 18:03:24,583:INFO:create_model() successfully completed......................................
+2024-11-19 18:03:24,624:INFO:SubProcess create_model() end ==================================
+2024-11-19 18:03:24,624:INFO:Creating metrics dataframe
+2024-11-19 18:03:24,628:INFO:Initializing SVM - Linear Kernel
+2024-11-19 18:03:24,629:INFO:Total runtime is 0.12042093276977539 minutes
+2024-11-19 18:03:24,630:INFO:SubProcess create_model() called ==================================
+2024-11-19 18:03:24,630:INFO:Initializing create_model()
+2024-11-19 18:03:24,630:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=svm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x31138db50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-11-19 18:03:24,630:INFO:Checking exceptions
+2024-11-19 18:03:24,630:INFO:Importing libraries
+2024-11-19 18:03:24,630:INFO:Copying training dataset
+2024-11-19 18:03:24,643:INFO:Defining folds
+2024-11-19 18:03:24,643:INFO:Declaring metric variables
+2024-11-19 18:03:24,644:INFO:Importing untrained model
+2024-11-19 18:03:24,646:INFO:SVM - Linear Kernel Imported successfully
+2024-11-19 18:03:24,649:INFO:Starting cross validation
+2024-11-19 18:03:24,650:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-11-19 18:03:24,919:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:24,940:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:24,948:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:24,962:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:24,988:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:24,992:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:24,993:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:24,995:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:25,014:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:25,035:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:25,051:INFO:Calculating mean and std
+2024-11-19 18:03:25,052:INFO:Creating metrics dataframe
+2024-11-19 18:03:25,053:INFO:Uploading results into container
+2024-11-19 18:03:25,053:INFO:Uploading model into container now
+2024-11-19 18:03:25,054:INFO:_master_model_container: 5
+2024-11-19 18:03:25,054:INFO:_display_container: 2
+2024-11-19 18:03:25,054:INFO:SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=123, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False)
+2024-11-19 18:03:25,054:INFO:create_model() successfully completed......................................
+2024-11-19 18:03:25,095:INFO:SubProcess create_model() end ==================================
+2024-11-19 18:03:25,096:INFO:Creating metrics dataframe
+2024-11-19 18:03:25,100:INFO:Initializing Ridge Classifier
+2024-11-19 18:03:25,100:INFO:Total runtime is 0.1282788316408793 minutes
+2024-11-19 18:03:25,102:INFO:SubProcess create_model() called ==================================
+2024-11-19 18:03:25,102:INFO:Initializing create_model()
+2024-11-19 18:03:25,102:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=ridge, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x31138db50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-11-19 18:03:25,102:INFO:Checking exceptions
+2024-11-19 18:03:25,102:INFO:Importing libraries
+2024-11-19 18:03:25,102:INFO:Copying training dataset
+2024-11-19 18:03:25,115:INFO:Defining folds
+2024-11-19 18:03:25,115:INFO:Declaring metric variables
+2024-11-19 18:03:25,117:INFO:Importing untrained model
+2024-11-19 18:03:25,118:INFO:Ridge Classifier Imported successfully
+2024-11-19 18:03:25,121:INFO:Starting cross validation
+2024-11-19 18:03:25,122:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-11-19 18:03:25,304:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:25,312:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:25,332:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:25,335:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:25,343:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:25,359:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:25,360:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:25,368:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:25,399:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:25,421:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:25,433:INFO:Calculating mean and std
+2024-11-19 18:03:25,434:INFO:Creating metrics dataframe
+2024-11-19 18:03:25,435:INFO:Uploading results into container
+2024-11-19 18:03:25,435:INFO:Uploading model into container now
+2024-11-19 18:03:25,435:INFO:_master_model_container: 6
+2024-11-19 18:03:25,435:INFO:_display_container: 2
+2024-11-19 18:03:25,435:INFO:RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+                max_iter=None, positive=False, random_state=123, solver='auto',
+                tol=0.0001)
+2024-11-19 18:03:25,435:INFO:create_model() successfully completed......................................
+2024-11-19 18:03:25,477:INFO:SubProcess create_model() end ==================================
+2024-11-19 18:03:25,477:INFO:Creating metrics dataframe
+2024-11-19 18:03:25,482:INFO:Initializing Random Forest Classifier
+2024-11-19 18:03:25,482:INFO:Total runtime is 0.13464526335398355 minutes
+2024-11-19 18:03:25,484:INFO:SubProcess create_model() called ==================================
+2024-11-19 18:03:25,484:INFO:Initializing create_model()
+2024-11-19 18:03:25,484:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=rf, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x31138db50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-11-19 18:03:25,484:INFO:Checking exceptions
+2024-11-19 18:03:25,484:INFO:Importing libraries
+2024-11-19 18:03:25,484:INFO:Copying training dataset
+2024-11-19 18:03:25,496:INFO:Defining folds
+2024-11-19 18:03:25,496:INFO:Declaring metric variables
+2024-11-19 18:03:25,498:INFO:Importing untrained model
+2024-11-19 18:03:25,500:INFO:Random Forest Classifier Imported successfully
+2024-11-19 18:03:25,503:INFO:Starting cross validation
+2024-11-19 18:03:25,504:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-11-19 18:03:30,248:INFO:Calculating mean and std
+2024-11-19 18:03:30,249:INFO:Creating metrics dataframe
+2024-11-19 18:03:30,250:INFO:Uploading results into container
+2024-11-19 18:03:30,250:INFO:Uploading model into container now
+2024-11-19 18:03:30,250:INFO:_master_model_container: 7
+2024-11-19 18:03:30,250:INFO:_display_container: 2
+2024-11-19 18:03:30,250:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False)
+2024-11-19 18:03:30,251:INFO:create_model() successfully completed......................................
+2024-11-19 18:03:30,292:INFO:SubProcess create_model() end ==================================
+2024-11-19 18:03:30,292:INFO:Creating metrics dataframe
+2024-11-19 18:03:30,297:INFO:Initializing Quadratic Discriminant Analysis
+2024-11-19 18:03:30,297:INFO:Total runtime is 0.21488958199818928 minutes
+2024-11-19 18:03:30,298:INFO:SubProcess create_model() called ==================================
+2024-11-19 18:03:30,298:INFO:Initializing create_model()
+2024-11-19 18:03:30,298:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=qda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x31138db50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-11-19 18:03:30,298:INFO:Checking exceptions
+2024-11-19 18:03:30,298:INFO:Importing libraries
+2024-11-19 18:03:30,298:INFO:Copying training dataset
+2024-11-19 18:03:30,311:INFO:Defining folds
+2024-11-19 18:03:30,311:INFO:Declaring metric variables
+2024-11-19 18:03:30,313:INFO:Importing untrained model
+2024-11-19 18:03:30,314:INFO:Quadratic Discriminant Analysis Imported successfully
+2024-11-19 18:03:30,317:INFO:Starting cross validation
+2024-11-19 18:03:30,318:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-11-19 18:03:30,474:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2024-11-19 18:03:30,488:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2024-11-19 18:03:30,497:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2024-11-19 18:03:30,499:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2024-11-19 18:03:30,528:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2024-11-19 18:03:30,534:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2024-11-19 18:03:30,543:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2024-11-19 18:03:30,567:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2024-11-19 18:03:30,588:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2024-11-19 18:03:30,617:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2024-11-19 18:03:30,655:INFO:Calculating mean and std
+2024-11-19 18:03:30,655:INFO:Creating metrics dataframe
+2024-11-19 18:03:30,656:INFO:Uploading results into container
+2024-11-19 18:03:30,657:INFO:Uploading model into container now
+2024-11-19 18:03:30,657:INFO:_master_model_container: 8
+2024-11-19 18:03:30,657:INFO:_display_container: 2
+2024-11-19 18:03:30,657:INFO:QuadraticDiscriminantAnalysis(priors=None, reg_param=0.0,
+                              store_covariance=False, tol=0.0001)
+2024-11-19 18:03:30,657:INFO:create_model() successfully completed......................................
+2024-11-19 18:03:30,719:INFO:SubProcess create_model() end ==================================
+2024-11-19 18:03:30,719:INFO:Creating metrics dataframe
+2024-11-19 18:03:30,724:INFO:Initializing Ada Boost Classifier
+2024-11-19 18:03:30,724:INFO:Total runtime is 0.22201486428578693 minutes
+2024-11-19 18:03:30,726:INFO:SubProcess create_model() called ==================================
+2024-11-19 18:03:30,726:INFO:Initializing create_model()
+2024-11-19 18:03:30,726:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=ada, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x31138db50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-11-19 18:03:30,726:INFO:Checking exceptions
+2024-11-19 18:03:30,726:INFO:Importing libraries
+2024-11-19 18:03:30,726:INFO:Copying training dataset
+2024-11-19 18:03:30,739:INFO:Defining folds
+2024-11-19 18:03:30,739:INFO:Declaring metric variables
+2024-11-19 18:03:30,741:INFO:Importing untrained model
+2024-11-19 18:03:30,742:INFO:Ada Boost Classifier Imported successfully
+2024-11-19 18:03:30,745:INFO:Starting cross validation
+2024-11-19 18:03:30,746:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-11-19 18:03:30,866:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2024-11-19 18:03:30,891:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2024-11-19 18:03:30,903:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2024-11-19 18:03:30,910:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2024-11-19 18:03:30,914:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2024-11-19 18:03:30,923:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2024-11-19 18:03:30,935:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2024-11-19 18:03:30,978:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2024-11-19 18:03:31,012:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2024-11-19 18:03:31,025:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2024-11-19 18:03:32,408:INFO:Calculating mean and std
+2024-11-19 18:03:32,409:INFO:Creating metrics dataframe
+2024-11-19 18:03:32,410:INFO:Uploading results into container
+2024-11-19 18:03:32,410:INFO:Uploading model into container now
+2024-11-19 18:03:32,410:INFO:_master_model_container: 9
+2024-11-19 18:03:32,410:INFO:_display_container: 2
+2024-11-19 18:03:32,410:INFO:AdaBoostClassifier(algorithm='SAMME.R', estimator=None, learning_rate=1.0,
+                   n_estimators=50, random_state=123)
+2024-11-19 18:03:32,410:INFO:create_model() successfully completed......................................
+2024-11-19 18:03:32,451:INFO:SubProcess create_model() end ==================================
+2024-11-19 18:03:32,451:INFO:Creating metrics dataframe
+2024-11-19 18:03:32,456:INFO:Initializing Gradient Boosting Classifier
+2024-11-19 18:03:32,456:INFO:Total runtime is 0.250874129931132 minutes
+2024-11-19 18:03:32,457:INFO:SubProcess create_model() called ==================================
+2024-11-19 18:03:32,457:INFO:Initializing create_model()
+2024-11-19 18:03:32,457:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=gbc, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x31138db50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-11-19 18:03:32,457:INFO:Checking exceptions
+2024-11-19 18:03:32,457:INFO:Importing libraries
+2024-11-19 18:03:32,457:INFO:Copying training dataset
+2024-11-19 18:03:32,470:INFO:Defining folds
+2024-11-19 18:03:32,470:INFO:Declaring metric variables
+2024-11-19 18:03:32,471:INFO:Importing untrained model
+2024-11-19 18:03:32,473:INFO:Gradient Boosting Classifier Imported successfully
+2024-11-19 18:03:32,476:INFO:Starting cross validation
+2024-11-19 18:03:32,477:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-11-19 18:03:38,827:INFO:Calculating mean and std
+2024-11-19 18:03:38,828:INFO:Creating metrics dataframe
+2024-11-19 18:03:38,829:INFO:Uploading results into container
+2024-11-19 18:03:38,829:INFO:Uploading model into container now
+2024-11-19 18:03:38,830:INFO:_master_model_container: 10
+2024-11-19 18:03:38,830:INFO:_display_container: 2
+2024-11-19 18:03:38,830:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2024-11-19 18:03:38,830:INFO:create_model() successfully completed......................................
+2024-11-19 18:03:38,872:INFO:SubProcess create_model() end ==================================
+2024-11-19 18:03:38,872:INFO:Creating metrics dataframe
+2024-11-19 18:03:38,876:INFO:Initializing Linear Discriminant Analysis
+2024-11-19 18:03:38,876:INFO:Total runtime is 0.35788513024648033 minutes
+2024-11-19 18:03:38,878:INFO:SubProcess create_model() called ==================================
+2024-11-19 18:03:38,878:INFO:Initializing create_model()
+2024-11-19 18:03:38,878:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=lda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x31138db50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-11-19 18:03:38,878:INFO:Checking exceptions
+2024-11-19 18:03:38,878:INFO:Importing libraries
+2024-11-19 18:03:38,878:INFO:Copying training dataset
+2024-11-19 18:03:38,890:INFO:Defining folds
+2024-11-19 18:03:38,890:INFO:Declaring metric variables
+2024-11-19 18:03:38,892:INFO:Importing untrained model
+2024-11-19 18:03:38,893:INFO:Linear Discriminant Analysis Imported successfully
+2024-11-19 18:03:38,897:INFO:Starting cross validation
+2024-11-19 18:03:38,897:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-11-19 18:03:39,252:INFO:Calculating mean and std
+2024-11-19 18:03:39,253:INFO:Creating metrics dataframe
+2024-11-19 18:03:39,254:INFO:Uploading results into container
+2024-11-19 18:03:39,254:INFO:Uploading model into container now
+2024-11-19 18:03:39,254:INFO:_master_model_container: 11
+2024-11-19 18:03:39,254:INFO:_display_container: 2
+2024-11-19 18:03:39,254:INFO:LinearDiscriminantAnalysis(covariance_estimator=None, n_components=None,
+                           priors=None, shrinkage=None, solver='svd',
+                           store_covariance=False, tol=0.0001)
+2024-11-19 18:03:39,254:INFO:create_model() successfully completed......................................
+2024-11-19 18:03:39,296:INFO:SubProcess create_model() end ==================================
+2024-11-19 18:03:39,296:INFO:Creating metrics dataframe
+2024-11-19 18:03:39,301:INFO:Initializing Extra Trees Classifier
+2024-11-19 18:03:39,301:INFO:Total runtime is 0.3649592955907186 minutes
+2024-11-19 18:03:39,302:INFO:SubProcess create_model() called ==================================
+2024-11-19 18:03:39,302:INFO:Initializing create_model()
+2024-11-19 18:03:39,302:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=et, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x31138db50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-11-19 18:03:39,302:INFO:Checking exceptions
+2024-11-19 18:03:39,303:INFO:Importing libraries
+2024-11-19 18:03:39,303:INFO:Copying training dataset
+2024-11-19 18:03:39,315:INFO:Defining folds
+2024-11-19 18:03:39,315:INFO:Declaring metric variables
+2024-11-19 18:03:39,317:INFO:Importing untrained model
+2024-11-19 18:03:39,319:INFO:Extra Trees Classifier Imported successfully
+2024-11-19 18:03:39,322:INFO:Starting cross validation
+2024-11-19 18:03:39,323:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-11-19 18:03:42,112:INFO:Calculating mean and std
+2024-11-19 18:03:42,113:INFO:Creating metrics dataframe
+2024-11-19 18:03:42,115:INFO:Uploading results into container
+2024-11-19 18:03:42,115:INFO:Uploading model into container now
+2024-11-19 18:03:42,115:INFO:_master_model_container: 12
+2024-11-19 18:03:42,115:INFO:_display_container: 2
+2024-11-19 18:03:42,116:INFO:ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                     oob_score=False, random_state=123, verbose=0,
+                     warm_start=False)
+2024-11-19 18:03:42,116:INFO:create_model() successfully completed......................................
+2024-11-19 18:03:42,164:INFO:SubProcess create_model() end ==================================
+2024-11-19 18:03:42,164:INFO:Creating metrics dataframe
+2024-11-19 18:03:42,169:INFO:Initializing Light Gradient Boosting Machine
+2024-11-19 18:03:42,169:INFO:Total runtime is 0.41276989777882894 minutes
+2024-11-19 18:03:42,171:INFO:SubProcess create_model() called ==================================
+2024-11-19 18:03:42,171:INFO:Initializing create_model()
+2024-11-19 18:03:42,171:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=lightgbm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x31138db50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-11-19 18:03:42,172:INFO:Checking exceptions
+2024-11-19 18:03:42,172:INFO:Importing libraries
+2024-11-19 18:03:42,172:INFO:Copying training dataset
+2024-11-19 18:03:42,185:INFO:Defining folds
+2024-11-19 18:03:42,185:INFO:Declaring metric variables
+2024-11-19 18:03:42,187:INFO:Importing untrained model
+2024-11-19 18:03:42,188:INFO:Light Gradient Boosting Machine Imported successfully
+2024-11-19 18:03:42,191:INFO:Starting cross validation
+2024-11-19 18:03:42,192:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-11-19 18:03:46,829:INFO:Calculating mean and std
+2024-11-19 18:03:46,830:INFO:Creating metrics dataframe
+2024-11-19 18:03:46,831:INFO:Uploading results into container
+2024-11-19 18:03:46,831:INFO:Uploading model into container now
+2024-11-19 18:03:46,831:INFO:_master_model_container: 13
+2024-11-19 18:03:46,831:INFO:_display_container: 2
+2024-11-19 18:03:46,832:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=123, reg_alpha=0.0, reg_lambda=0.0, subsample=1.0,
+               subsample_for_bin=200000, subsample_freq=0)
+2024-11-19 18:03:46,832:INFO:create_model() successfully completed......................................
+2024-11-19 18:03:46,872:INFO:SubProcess create_model() end ==================================
+2024-11-19 18:03:46,872:INFO:Creating metrics dataframe
+2024-11-19 18:03:46,878:INFO:Initializing Dummy Classifier
+2024-11-19 18:03:46,878:INFO:Total runtime is 0.49123921394348147 minutes
+2024-11-19 18:03:46,879:INFO:SubProcess create_model() called ==================================
+2024-11-19 18:03:46,879:INFO:Initializing create_model()
+2024-11-19 18:03:46,879:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=dummy, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x31138db50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-11-19 18:03:46,879:INFO:Checking exceptions
+2024-11-19 18:03:46,879:INFO:Importing libraries
+2024-11-19 18:03:46,879:INFO:Copying training dataset
+2024-11-19 18:03:46,891:INFO:Defining folds
+2024-11-19 18:03:46,891:INFO:Declaring metric variables
+2024-11-19 18:03:46,893:INFO:Importing untrained model
+2024-11-19 18:03:46,894:INFO:Dummy Classifier Imported successfully
+2024-11-19 18:03:46,897:INFO:Starting cross validation
+2024-11-19 18:03:46,898:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-11-19 18:03:47,059:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:47,063:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:47,081:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:47,082:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:47,087:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:47,094:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:47,109:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:47,114:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:47,168:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:47,192:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:03:47,204:INFO:Calculating mean and std
+2024-11-19 18:03:47,205:INFO:Creating metrics dataframe
+2024-11-19 18:03:47,205:INFO:Uploading results into container
+2024-11-19 18:03:47,206:INFO:Uploading model into container now
+2024-11-19 18:03:47,206:INFO:_master_model_container: 14
+2024-11-19 18:03:47,206:INFO:_display_container: 2
+2024-11-19 18:03:47,206:INFO:DummyClassifier(constant=None, random_state=123, strategy='prior')
+2024-11-19 18:03:47,206:INFO:create_model() successfully completed......................................
+2024-11-19 18:03:47,247:INFO:SubProcess create_model() end ==================================
+2024-11-19 18:03:47,247:INFO:Creating metrics dataframe
+2024-11-19 18:03:47,260:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/pycaret/internal/pycaret_experiment/supervised_experiment.py:323: FutureWarning: Styler.applymap has been deprecated. Use Styler.map instead.
+  master_display_.apply(
+
+2024-11-19 18:03:47,263:INFO:Initializing create_model()
+2024-11-19 18:03:47,263:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-11-19 18:03:47,263:INFO:Checking exceptions
+2024-11-19 18:03:47,264:INFO:Importing libraries
+2024-11-19 18:03:47,264:INFO:Copying training dataset
+2024-11-19 18:03:47,276:INFO:Defining folds
+2024-11-19 18:03:47,277:INFO:Declaring metric variables
+2024-11-19 18:03:47,277:INFO:Importing untrained model
+2024-11-19 18:03:47,277:INFO:Declaring custom model
+2024-11-19 18:03:47,277:INFO:Logistic Regression Imported successfully
+2024-11-19 18:03:47,278:INFO:Cross validation set to False
+2024-11-19 18:03:47,278:INFO:Fitting Model
+2024-11-19 18:03:47,435:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2024-11-19 18:03:47,435:INFO:create_model() successfully completed......................................
+2024-11-19 18:03:47,522:INFO:_master_model_container: 14
+2024-11-19 18:03:47,523:INFO:_display_container: 2
+2024-11-19 18:03:47,523:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2024-11-19 18:03:47,523:INFO:compare_models() successfully completed......................................
+2024-11-19 18:03:47,550:INFO:Initializing create_model()
+2024-11-19 18:03:47,551:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=gbc, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-11-19 18:03:47,551:INFO:Checking exceptions
+2024-11-19 18:03:47,568:INFO:Importing libraries
+2024-11-19 18:03:47,568:INFO:Copying training dataset
+2024-11-19 18:03:47,590:INFO:Defining folds
+2024-11-19 18:03:47,590:INFO:Declaring metric variables
+2024-11-19 18:03:47,592:INFO:Importing untrained model
+2024-11-19 18:03:47,597:INFO:Gradient Boosting Classifier Imported successfully
+2024-11-19 18:03:47,605:INFO:Starting cross validation
+2024-11-19 18:03:47,608:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-11-19 18:03:54,249:INFO:Calculating mean and std
+2024-11-19 18:03:54,250:INFO:Creating metrics dataframe
+2024-11-19 18:03:54,252:INFO:Finalizing model
+2024-11-19 18:03:59,826:INFO:Uploading results into container
+2024-11-19 18:03:59,827:INFO:Uploading model into container now
+2024-11-19 18:03:59,832:INFO:_master_model_container: 15
+2024-11-19 18:03:59,832:INFO:_display_container: 3
+2024-11-19 18:03:59,832:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2024-11-19 18:03:59,832:INFO:create_model() successfully completed......................................
+2024-11-19 18:03:59,897:INFO:Initializing tune_model()
+2024-11-19 18:03:59,897:INFO:tune_model(estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), fold=None, round=4, n_iter=10, custom_grid=None, optimize=AUC, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={}, self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>)
+2024-11-19 18:03:59,897:INFO:Checking exceptions
+2024-11-19 18:03:59,910:INFO:Copying training dataset
+2024-11-19 18:03:59,919:INFO:Checking base model
+2024-11-19 18:03:59,919:INFO:Base model : Gradient Boosting Classifier
+2024-11-19 18:03:59,921:INFO:Declaring metric variables
+2024-11-19 18:03:59,923:INFO:Defining Hyperparameters
+2024-11-19 18:03:59,965:INFO:Tuning with n_jobs=-1
+2024-11-19 18:03:59,965:INFO:Initializing RandomizedSearchCV
+2024-11-19 18:05:04,862:INFO:best_params: {'actual_estimator__subsample': 0.35, 'actual_estimator__n_estimators': 140, 'actual_estimator__min_samples_split': 2, 'actual_estimator__min_samples_leaf': 2, 'actual_estimator__min_impurity_decrease': 0.05, 'actual_estimator__max_features': 'sqrt', 'actual_estimator__max_depth': 7, 'actual_estimator__learning_rate': 0.01}
+2024-11-19 18:05:04,863:INFO:Hyperparameter search completed
+2024-11-19 18:05:04,863:INFO:SubProcess create_model() called ==================================
+2024-11-19 18:05:04,863:INFO:Initializing create_model()
+2024-11-19 18:05:04,863:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x328b08bb0>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'subsample': 0.35, 'n_estimators': 140, 'min_samples_split': 2, 'min_samples_leaf': 2, 'min_impurity_decrease': 0.05, 'max_features': 'sqrt', 'max_depth': 7, 'learning_rate': 0.01})
+2024-11-19 18:05:04,864:INFO:Checking exceptions
+2024-11-19 18:05:04,864:INFO:Importing libraries
+2024-11-19 18:05:04,864:INFO:Copying training dataset
+2024-11-19 18:05:04,877:INFO:Defining folds
+2024-11-19 18:05:04,877:INFO:Declaring metric variables
+2024-11-19 18:05:04,879:INFO:Importing untrained model
+2024-11-19 18:05:04,879:INFO:Declaring custom model
+2024-11-19 18:05:04,881:INFO:Gradient Boosting Classifier Imported successfully
+2024-11-19 18:05:04,884:INFO:Starting cross validation
+2024-11-19 18:05:04,885:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-11-19 18:05:07,557:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:05:07,602:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:05:07,664:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:05:07,698:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:05:07,724:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:05:07,741:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:05:07,748:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:05:07,757:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:05:07,788:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-19 18:05:07,802:INFO:Calculating mean and std
+2024-11-19 18:05:07,803:INFO:Creating metrics dataframe
+2024-11-19 18:05:07,806:INFO:Finalizing model
+2024-11-19 18:05:09,996:INFO:Uploading results into container
+2024-11-19 18:05:09,997:INFO:Uploading model into container now
+2024-11-19 18:05:09,997:INFO:_master_model_container: 16
+2024-11-19 18:05:09,998:INFO:_display_container: 4
+2024-11-19 18:05:09,998:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.01, loss='log_loss', max_depth=7,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.05, min_samples_leaf=2,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=140, n_iter_no_change=None,
+                           random_state=123, subsample=0.35, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2024-11-19 18:05:09,998:INFO:create_model() successfully completed......................................
+2024-11-19 18:05:10,044:INFO:SubProcess create_model() end ==================================
+2024-11-19 18:05:10,044:INFO:choose_better activated
+2024-11-19 18:05:10,046:INFO:SubProcess create_model() called ==================================
+2024-11-19 18:05:10,046:INFO:Initializing create_model()
+2024-11-19 18:05:10,046:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-11-19 18:05:10,046:INFO:Checking exceptions
+2024-11-19 18:05:10,047:INFO:Importing libraries
+2024-11-19 18:05:10,047:INFO:Copying training dataset
+2024-11-19 18:05:10,059:INFO:Defining folds
+2024-11-19 18:05:10,060:INFO:Declaring metric variables
+2024-11-19 18:05:10,060:INFO:Importing untrained model
+2024-11-19 18:05:10,060:INFO:Declaring custom model
+2024-11-19 18:05:10,060:INFO:Gradient Boosting Classifier Imported successfully
+2024-11-19 18:05:10,060:INFO:Starting cross validation
+2024-11-19 18:05:10,061:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2024-11-19 18:05:16,520:INFO:Calculating mean and std
+2024-11-19 18:05:16,520:INFO:Creating metrics dataframe
+2024-11-19 18:05:16,521:INFO:Finalizing model
+2024-11-19 18:05:22,133:INFO:Uploading results into container
+2024-11-19 18:05:22,133:INFO:Uploading model into container now
+2024-11-19 18:05:22,133:INFO:_master_model_container: 17
+2024-11-19 18:05:22,133:INFO:_display_container: 5
+2024-11-19 18:05:22,133:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2024-11-19 18:05:22,133:INFO:create_model() successfully completed......................................
+2024-11-19 18:05:22,176:INFO:SubProcess create_model() end ==================================
+2024-11-19 18:05:22,176:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False) result for AUC is 0.8545
+2024-11-19 18:05:22,176:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.01, loss='log_loss', max_depth=7,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.05, min_samples_leaf=2,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=140, n_iter_no_change=None,
+                           random_state=123, subsample=0.35, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False) result for AUC is 0.853
+2024-11-19 18:05:22,177:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False) is best model
+2024-11-19 18:05:22,177:INFO:choose_better completed
+2024-11-19 18:05:22,177:INFO:Original model was better than the tuned model, hence it will be returned. NOTE: The display metrics are for the tuned model (not the original one).
+2024-11-19 18:05:22,182:INFO:_master_model_container: 17
+2024-11-19 18:05:22,182:INFO:_display_container: 4
+2024-11-19 18:05:22,182:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2024-11-19 18:05:22,182:INFO:tune_model() successfully completed......................................
+2024-11-19 18:05:22,249:INFO:Initializing plot_model()
+2024-11-19 18:05:22,249:INFO:plot_model(plot=feature, fold=None, verbose=True, display=None, display_format=None, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, system=True)
+2024-11-19 18:05:22,249:INFO:Checking exceptions
+2024-11-19 18:05:22,255:INFO:Preloading libraries
+2024-11-19 18:05:22,260:INFO:Copying training dataset
+2024-11-19 18:05:22,261:INFO:Plot type: feature
+2024-11-19 18:05:22,261:WARNING:No coef_ found. Trying feature_importances_
+2024-11-19 18:05:22,451:INFO:Visual Rendered Successfully
+2024-11-19 18:05:22,493:INFO:plot_model() successfully completed......................................
+2024-11-19 18:05:22,499:INFO:Initializing plot_model()
+2024-11-19 18:05:22,500:INFO:plot_model(plot=auc, fold=None, verbose=True, display=None, display_format=None, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, system=True)
+2024-11-19 18:05:22,500:INFO:Checking exceptions
+2024-11-19 18:05:22,506:INFO:Preloading libraries
+2024-11-19 18:05:22,510:INFO:Copying training dataset
+2024-11-19 18:05:22,510:INFO:Plot type: auc
+2024-11-19 18:05:22,776:INFO:Fitting Model
+2024-11-19 18:05:22,782:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/base.py:493: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+  warnings.warn(
+
+2024-11-19 18:05:22,783:INFO:Scoring test/hold-out set
+2024-11-19 18:05:22,969:INFO:Visual Rendered Successfully
+2024-11-19 18:05:23,012:INFO:plot_model() successfully completed......................................
+2024-11-19 18:05:23,019:INFO:Initializing plot_model()
+2024-11-19 18:05:23,019:INFO:plot_model(plot=gain, fold=None, verbose=True, display=None, display_format=None, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, system=True)
+2024-11-19 18:05:23,019:INFO:Checking exceptions
+2024-11-19 18:05:23,026:INFO:Preloading libraries
+2024-11-19 18:05:23,031:INFO:Copying training dataset
+2024-11-19 18:05:23,031:INFO:Plot type: gain
+2024-11-19 18:05:23,031:INFO:Generating predictions / predict_proba on X_test
+2024-11-19 18:05:23,300:INFO:Visual Rendered Successfully
+2024-11-19 18:05:23,342:INFO:plot_model() successfully completed......................................
+2024-11-19 18:05:23,348:INFO:Initializing plot_model()
+2024-11-19 18:05:23,348:INFO:plot_model(plot=lift, fold=None, verbose=True, display=None, display_format=None, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, system=True)
+2024-11-19 18:05:23,348:INFO:Checking exceptions
+2024-11-19 18:05:23,355:INFO:Preloading libraries
+2024-11-19 18:05:23,359:INFO:Copying training dataset
+2024-11-19 18:05:23,359:INFO:Plot type: lift
+2024-11-19 18:05:23,360:INFO:Generating predictions / predict_proba on X_test
+2024-11-19 18:05:23,603:INFO:Visual Rendered Successfully
+2024-11-19 18:05:23,646:INFO:plot_model() successfully completed......................................
+2024-11-19 18:05:23,651:INFO:Initializing predict_model()
+2024-11-19 18:05:23,652:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x311555790>)
+2024-11-19 18:05:23,652:INFO:Checking exceptions
+2024-11-19 18:05:23,652:INFO:Preloading libraries
+2024-11-19 18:05:23,892:INFO:Initializing finalize_model()
+2024-11-19 18:05:23,892:INFO:finalize_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), fit_kwargs=None, groups=None, model_only=False, experiment_custom_tags=None)
+2024-11-19 18:05:23,893:INFO:Finalizing GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2024-11-19 18:05:23,899:INFO:Initializing create_model()
+2024-11-19 18:05:23,899:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), fold=None, round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, model_only=False, return_train_score=False, error_score=0.0, kwargs={})
+2024-11-19 18:05:23,899:INFO:Checking exceptions
+2024-11-19 18:05:23,900:INFO:Importing libraries
+2024-11-19 18:05:23,900:INFO:Copying training dataset
+2024-11-19 18:05:23,901:INFO:Defining folds
+2024-11-19 18:05:23,901:INFO:Declaring metric variables
+2024-11-19 18:05:23,901:INFO:Importing untrained model
+2024-11-19 18:05:23,901:INFO:Declaring custom model
+2024-11-19 18:05:23,901:INFO:Gradient Boosting Classifier Imported successfully
+2024-11-19 18:05:23,902:INFO:Cross validation set to False
+2024-11-19 18:05:23,902:INFO:Fitting Model
+2024-11-19 18:05:31,974:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False)
+2024-11-19 18:05:31,975:INFO:create_model() successfully completed......................................
+2024-11-19 18:05:32,018:INFO:_master_model_container: 17
+2024-11-19 18:05:32,018:INFO:_display_container: 5
+2024-11-19 18:05:32,026:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False)
+2024-11-19 18:05:32,026:INFO:finalize_model() successfully completed......................................
+2024-11-19 18:05:32,103:INFO:Initializing predict_model()
+2024-11-19 18:05:32,103:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x3115558b0>)
+2024-11-19 18:05:32,103:INFO:Checking exceptions
+2024-11-19 18:05:32,103:INFO:Preloading libraries
+2024-11-19 18:05:32,407:INFO:Initializing predict_model()
+2024-11-19 18:05:32,408:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x328763160>)
+2024-11-19 18:05:32,408:INFO:Checking exceptions
+2024-11-19 18:05:32,408:INFO:Preloading libraries
+2024-11-19 18:05:32,409:INFO:Set up data.
+2024-11-19 18:05:32,475:INFO:Set up index.
+2024-11-19 18:05:33,815:INFO:Initializing save_model()
+2024-11-19 18:05:33,816:INFO:save_model(model=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), model_name=Modelo_Final_19_11_2024, prep_pipe_=Pipeline(memory=FastMemory(location=/var/folders/c4/75scc7l95tb5q89bl9q_4kkr0000gn/T/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,...
+                 TransformerWrapper(exclude=None, include=['vehicle_age'],
+                                    transformer=OneHotEncoder(cols=['vehicle_age'],
+                                                              drop_invariant=False,
+                                                              handle_missing='return_nan',
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('normalize',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=StandardScaler(copy=True,
+                                                               with_mean=True,
+                                                               with_std=True)))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2024-11-19 18:05:33,816:INFO:Adding model into prep_pipe
+2024-11-19 18:05:33,816:WARNING:Only Model saved as it was a pipeline.
+2024-11-19 18:05:33,822:INFO:Modelo_Final_19_11_2024.pkl saved in current working directory
+2024-11-19 18:05:33,830:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False)
+2024-11-19 18:05:33,830:INFO:save_model() successfully completed......................................
+2024-11-19 18:05:33,895:INFO:Initializing predict_model()
+2024-11-19 18:05:33,896:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x32826edc0>)
+2024-11-19 18:05:33,896:INFO:Checking exceptions
+2024-11-19 18:05:33,896:INFO:Preloading libraries
+2024-11-19 18:05:34,163:INFO:Initializing predict_model()
+2024-11-19 18:05:34,163:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x32826eee0>)
+2024-11-19 18:05:34,163:INFO:Checking exceptions
+2024-11-19 18:05:34,163:INFO:Preloading libraries
+2024-11-19 18:06:21,876:INFO:Initializing predict_model()
+2024-11-19 18:06:21,876:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x32826e940>)
+2024-11-19 18:06:21,876:INFO:Checking exceptions
+2024-11-19 18:06:21,876:INFO:Preloading libraries
+2024-11-19 18:06:21,878:INFO:Set up data.
+2024-11-19 18:06:21,955:INFO:Set up index.
+2024-11-20 09:52:57,013:INFO:Initializing predict_model()
+2024-11-20 09:52:57,014:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x32c5b8f70>)
+2024-11-20 09:52:57,014:INFO:Checking exceptions
+2024-11-20 09:52:57,014:INFO:Preloading libraries
+2024-11-20 09:52:57,016:INFO:Set up data.
+2024-11-20 09:52:57,093:INFO:Set up index.
+2024-11-20 09:53:08,209:INFO:Initializing predict_model()
+2024-11-20 09:53:08,210:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x328a90310>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['id', 'age', 'driving_license',
+                                             'region_code',
+                                             'previously_insured',
+                                             'vehicle_damage', 'annual_premium',
+                                             'policy_sales_channel',
+                                             'vintage'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_value...
+                                            criterion='friedman_mse', init=None,
+                                            learning_rate=0.1, loss='log_loss',
+                                            max_depth=3, max_features=None,
+                                            max_leaf_nodes=None,
+                                            min_impurity_decrease=0.0,
+                                            min_samples_leaf=1,
+                                            min_samples_split=2,
+                                            min_weight_fraction_leaf=0.0,
+                                            n_estimators=100,
+                                            n_iter_no_change=None,
+                                            random_state=123, subsample=1.0,
+                                            tol=0.0001, validation_fraction=0.1,
+                                            verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x32c5a34c0>)
+2024-11-20 09:53:08,210:INFO:Checking exceptions
+2024-11-20 09:53:08,210:INFO:Preloading libraries
+2024-11-20 09:53:08,211:INFO:Set up data.
+2024-11-20 09:53:08,279:INFO:Set up index.
+2024-11-20 09:53:33,907:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-20 09:53:40,243:WARNING:/Users/henriquekubo/Documents/repos/health/health_insurance/.venv/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
