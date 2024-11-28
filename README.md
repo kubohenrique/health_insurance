@@ -1,8 +1,34 @@
 # Health Insurance Analytics Project
 
-Project Overview
+Our client is an Insurance company that has provided Health Insurance to its customers now they need your help in building a model to predict whether the policyholders (customers) from past year will also be interested in Vehicle Insurance provided by the company.
 
-This project aims to assist a health insurance company in understanding the main factors that influence the costs of health insurance plans. Using historical data, we applied exploratory data analysis techniques to identify patterns, formulate hypotheses, and extract insights that guide strategic decisions.
+An insurance policy is an arrangement by which a company undertakes to provide a guarantee of compensation for specified loss, damage, illness, or death in return for the payment of a specified premium. A premium is a sum of money that the customer needs to pay regularly to an insurance company for this guarantee.
+
+Just like medical insurance, there is vehicle insurance where every year customer needs to pay a premium of certain amount to insurance provider company so that in case of unfortunate accident by the vehicle, the insurance provider company will provide a compensation (called ‘sum assured’) to the customer.
+
+Building a model to predict whether a customer would be interested in Vehicle Insurance is extremely helpful for the company because it can then accordingly plan its communication strategy to reach out to those customers and optimise its business model and revenue.
+
+Now, in order to predict, whether the customer would be interested in Vehicle insurance, you have information about demographics (gender, age, region code type), Vehicles (Vehicle Age, Damage), Policy (Premium, sourcing channel) etc.
+
+<center><img width="40%" src="https://img.freepik.com/free-vector/social-security-concept-illustration_114360-17279.jpg?t=st=1731539901~exp=1731543501~hmac=f2cec6918cf5f73b2fabc8333bffb8216ee41c5c08ac1326536af5fd3c35c89b&w=1380"></center>
+
+**VARIABLES**
+
+* `id`:   Unique ID for the customer
+* `Gender`:   Gender of the customer
+* `Age`:	Age of the customer
+* `Driving_License`:	0 : Customer does not have DL, 1 : Customer already has DL
+* `Region_Code`:	Unique code for the region of the customer
+* `Previously_Insured`:	1 : Customer already has Vehicle Insurance, 0 : Customer doesn't have Vehicle Insurance
+* `Vehicle_Age`:	Age of the Vehicle
+* `Vehicle_Damage`:	1 : Customer got his/her vehicle damaged in the past. 0 : Customer didn't get his/her vehicle damaged in the past.
+* `Annual_Premium`:	The amount customer needs to pay as premium in the year
+* `Policy_Sales_Channel`: Anonymized Code for the channel of outreaching to the customer ie. Different Agents, Over Mail, Over Phone, In Person, etc.
+* `Vintage`:	Number of Days, Customer has been associated with the company
+* `Response`:	1 : Customer is interested, 0 : Customer is not interested
+
+ASSUMPTION : The response  = 0, means that the response was a negative and not a non response.
+
 
 Business Problem
 
@@ -56,29 +82,3 @@ Next Steps
 	•	Conduct additional tests to verify hypotheses related to behavior and medical history.
 	•	Create interactive dashboards to communicate insights to the company’s stakeholders.
 
-How to Run
-
-	1.	Clone this repository:
-
-git clone https://github.com/kubohenrique/health_insurance.git
-
-
-	2.	Navigate to the project directory:
-
-cd health_insurance
-
-
-	3.	Install the required dependencies:
-
-pip install -r requirements.txt
-
-
-	4.	Run the notebooks in the Notebooks folder.
-
-Author
-
-Henrique Yukio Kubo
-LinkedIn: Your Profile
-GitHub: kubohenrique
-
-Let me know if you’d like further refinements! 😊
