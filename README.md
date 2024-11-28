@@ -1,4 +1,5 @@
 # Health Insurance Analytics Project
+<center><img width="40%" src="https://img.freepik.com/free-vector/social-security-concept-illustration_114360-17279.jpg?t=st=1731539901~exp=1731543501~hmac=f2cec6918cf5f73b2fabc8333bffb8216ee41c5c08ac1326536af5fd3c35c89b&w=1380"></center>
 
 Our client is an Insurance company that has provided Health Insurance to its customers now they need your help in building a model to predict whether the policyholders (customers) from past year will also be interested in Vehicle Insurance provided by the company.
 
@@ -6,11 +7,11 @@ An insurance policy is an arrangement by which a company undertakes to provide a
 
 Just like medical insurance, there is vehicle insurance where every year customer needs to pay a premium of certain amount to insurance provider company so that in case of unfortunate accident by the vehicle, the insurance provider company will provide a compensation (called ‘sum assured’) to the customer.
 
+## Business Problem
+
 Building a model to predict whether a customer would be interested in Vehicle Insurance is extremely helpful for the company because it can then accordingly plan its communication strategy to reach out to those customers and optimise its business model and revenue.
 
 Now, in order to predict, whether the customer would be interested in Vehicle insurance, you have information about demographics (gender, age, region code type), Vehicles (Vehicle Age, Damage), Policy (Premium, sourcing channel) etc.
-
-<center><img width="40%" src="https://img.freepik.com/free-vector/social-security-concept-illustration_114360-17279.jpg?t=st=1731539901~exp=1731543501~hmac=f2cec6918cf5f73b2fabc8333bffb8216ee41c5c08ac1326536af5fd3c35c89b&w=1380"></center>
 
 **VARIABLES**
 
@@ -28,14 +29,6 @@ Now, in order to predict, whether the customer would be interested in Vehicle in
 * `Response`:	1 : Customer is interested, 0 : Customer is not interested
 
 ASSUMPTION : The response  = 0, means that the response was a negative and not a non response.
-
-
-Business Problem
-
-The company faces the challenge of determining the key factors that impact health insurance costs for its customers. These factors may range from demographic characteristics to health-related conditions, such as body mass index (BMI) and family medical history. The main goals are:
-	1.	Reducing operational costs by adjusting internal policies.
-	2.	Developing more accurate and fair pricing strategies for new and existing customers.
-	3.	Predicting the impact of future changes in the customer portfolio.
 
 Methodology
 
