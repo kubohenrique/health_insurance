@@ -60,6 +60,8 @@ Key Insights:
 
 To expedite the model selection process, I leveraged PyCaret. This library automates key machine learning tasks such as model training, hyperparameter tuning, and performance evaluation. This efficiency was particularly valuable given the extensive preprocessing steps completed prior to model training. And the model chosen was: `CATBOOST CLASSIFIER`
 
+<center><img width="40%" src="https://github.com/kubohenrique/health_insurance/blob/main/Notebooks/cumulative_gain.png"></center>
+
 
 
 ## Next Steps
