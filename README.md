@@ -52,15 +52,15 @@ Steps:
 
 Key Insights:
 
-	•	Preventive health policies: Develop campaigns focused on weight control and smoking cessation programs to reduce costs.
-	•	Personalized pricing: Adjust prices based on risk profiles, considering factors like age, BMI, and smoking habits.
-	•	Regional focus: Investigate what makes certain regions more expensive and implement solutions to mitigate costs.
+	•	It seems that if a person has already had their vehicle in an accident, they are more likely to purchase car insurance. 
+	•	Customers with older vehicle have more interest on vehicle insurance. This is curious too, people with less vehicle age tend to preserve their vehicles earlier, but that's not the case.
+	•	Apparently, men tend to purchase car insurance; among those who did, 61% were men.
 
-## Tools and Technologies
+## Machine Learning Model
 
-	•	Programming Language: Python
-	•	Key Libraries: pandas, numpy, matplotlib, seaborn
-	•	Tools: Jupyter Notebook
+To expedite the model selection process, I leveraged PyCaret. This library automates key machine learning tasks such as model training, hyperparameter tuning, and performance evaluation. This efficiency was particularly valuable given the extensive preprocessing steps completed prior to model training. And the model chosen was: `CATBOOST CLASSIFIER`
+
+
 
 ## Next Steps
 
