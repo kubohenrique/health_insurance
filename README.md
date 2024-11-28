@@ -30,32 +30,25 @@ Now, in order to predict, whether the customer would be interested in Vehicle in
 
 ASSUMPTION : The response  = 0, means that the response was a negative and not a non response.
 
-Methodology
+## Methodology
 
 The project was structured in analysis cycles to ensure progressive deep dives into the data and hypotheses. In the first cycle, the focus was on exploring the provided dataset, identifying potential correlations, and testing preliminary hypotheses.
 
 Steps:
 
 	1.	Initial data exploration:
-	•	Checking for missing values.
-	•	Descriptive statistics to understand data distribution.
-	2.	Hypothesis formulation:
-Hypotheses were generated based on characteristics such as age, BMI, number of dependents, smoking habits, and geographical region.
-	3.	Hypothesis validation:
-Statistical techniques and visualizations were used to identify trends and test whether the hypotheses were supported by the data.
-
-Insights and Results from Cycle 01
-
-Hypotheses Raised:
-
-	1.	Age and cost: Older customers tend to generate higher costs.
-	•	Result: Confirmed. A positive correlation was found between age and costs.
-	2.	BMI and cost: Individuals with higher BMI incur greater costs due to higher health risks.
-	•	Result: Confirmed. BMI showed a strong correlation with increased costs.
-	3.	Smoking and cost: Smokers have higher medical costs compared to non-smokers.
-	•	Result: Confirmed. Smokers displayed significantly higher costs.
-	4.	Geographical region and cost: Regional differences impact costs due to local policies and medical infrastructure.
-	•	Result: Partially confirmed. Certain regions showed significant cost discrepancies, while others did not.
+	2.	Checking for missing values.
+	3.	Descriptive statistics to understand data distribution.
+	4.	Hypothesis formulation
+	5.	Hypothesis validation
+ 
+## Hypothesis
+* **H1** - Younger customers may be more likely to purchase car insurance due to a higher probability of buying their first car or being interested in newer models that require insurance.
+* **H2** - Men may show greater interest in car insurance compared to women, possibly due to a cultural association with driving.
+* **H3** -  Customers in urban areas or with higher population density may be more prone to purchasing car insurance due to the greater need for transportation and increased risk of accidents.
+* **H4** - Customers who already have health insurance and also own a vehicle are more likely to purchase car insurance.
+* **H5** - Long-time customers with a good payment history may be more likely to purchase another product from the insurer, such as car insurance.
+* **H6** - Customers who purchased health insurance through a specific channel (online, phone, agent) may be more likely to purchase car insurance through the same channel.
 
 Key Insights:
 
@@ -63,13 +56,13 @@ Key Insights:
 	•	Personalized pricing: Adjust prices based on risk profiles, considering factors like age, BMI, and smoking habits.
 	•	Regional focus: Investigate what makes certain regions more expensive and implement solutions to mitigate costs.
 
-Tools and Technologies
+## Tools and Technologies
 
 	•	Programming Language: Python
 	•	Key Libraries: pandas, numpy, matplotlib, seaborn
 	•	Tools: Jupyter Notebook
 
-Next Steps
+## Next Steps
 
 	•	Refine analysis models with machine learning techniques to predict costs for new customers.
 	•	Conduct additional tests to verify hypotheses related to behavior and medical history.
