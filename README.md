@@ -60,13 +60,17 @@ Key Insights:
 
 To expedite the model selection process, I leveraged PyCaret. This library automates key machine learning tasks such as model training, hyperparameter tuning, and performance evaluation. This efficiency was particularly valuable given the extensive preprocessing steps completed prior to model training. And the model chosen was: `CATBOOST CLASSIFIER`
 
-<center><img width="40%" src="https://github.com/kubohenrique/health_insurance/blob/main/Notebooks/cumulative_gain.png"></center>
+<center><img width="60%" src="https://github.com/kubohenrique/health_insurance/blob/main/Notebooks/cumulative_gain.png"></center>
 
+This graph is a Cumulative Gains Curve, a visual tool used in machine learning to evaluate the performance of classification models, particularly in scenarios where you want to prioritize correctly identifying the positive class ('Class 1' in this case).
 
+And we can see that 40% of the sample, represents almost 90% of the positive response.
+
+## Final Results
+
+This model provides a data-driven approach to customer acquisition.  By identifying and prioritizing high-potential leads, we equip the sales team to maximize conversion rates and drive business growth while minimizing wasted effort on less promising prospects.
 
 ## Next Steps
 
-	•	Refine analysis models with machine learning techniques to predict costs for new customers.
-	•	Conduct additional tests to verify hypotheses related to behavior and medical history.
 	•	Create interactive dashboards to communicate insights to the company’s stakeholders.
 
